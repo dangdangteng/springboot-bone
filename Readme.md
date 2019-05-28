@@ -18,6 +18,11 @@
 
 ## 基础模块
 ### ab-commont
-> 公共类
+> 公共类,最好deploy 在自己的maven私服
 ### ab-util
-> 工具类
+> 工具类,最好deploy 在自己的maven私服
+
+## 打包优化
+生成可执行的jar,shell,conf
+
+## 
