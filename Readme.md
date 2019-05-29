@@ -27,3 +27,4 @@
 
 ## 提交规范完善
 > 遵循angularjs规范
+> 借鉴文章 [点我](https://juejin.im/post/5afc5242f265da0b7f44bee4)
