@@ -25,4 +25,5 @@
 ## 打包优化
 生成可执行的jar,shell,conf
 
-## 
+## 提交规范完善
+> 遵循angularjs规范
