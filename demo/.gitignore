@@ -1,15 +1,8 @@
 HELP.md
-/target/
-demo/target/
-ab-commont/target/
-ab-util/target/
-alita/target/
-aredis/target/
-ereg/target/
-eregg/target/
-eurake/target/
-
+target/
 !.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
 ### STS ###
 .apt_generated
@@ -32,7 +25,9 @@ eurake/target/
 /dist/
 /nbdist/
 /.nb-gradle/
-/build/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
 ### VS Code ###
 .vscode/
