@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>xiaobai.angle</groupId>
-    <artifactId>springboot-bone</artifactId>
+    <artifactId>springboot-saber-one</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
   </parent>

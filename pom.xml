@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>xiaobai.angle</groupId>
-	<artifactId>springboot-bone</artifactId>
+	<artifactId>springboot-saber-one</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot-bone</name>
+	<name>springboot-saber-one</name>
 	<packaging>pom</packaging>
 	<description>所有项目的父项目</description>
 
