@@ -16,12 +16,10 @@
 	<description>所有项目的父项目</description>
 
 	<modules>
-		<module>ereg</module>
-		<module>eregg</module>
+		<module>a_eureka</module>
 		<module>alita</module>
-		<module>aredis</module>
-		<module>ab-commont</module>
-		<module>demo</module>
+		<module>a_redis</module>
+		<module>a_demo</module>
 	</modules>
 
 	<properties>
@@ -59,6 +57,10 @@
 				<configuration>
 					<skip>true</skip>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.sonarsource.scanner.maven</groupId>
+				<artifactId>sonar-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
 	</build>
