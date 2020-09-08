@@ -1,8 +1,6 @@
 package com.zhaogang.demo.util;
 
-import com.zhaogang.demo.entity.SimsStudent;
 import java.lang.reflect.Array;
-import java.lang.reflect.Field;
 
 /**
  * @author baiyang
@@ -35,5 +33,9 @@ public class ListTest<T> {
 //            declaredFields[i].getGenericType()
 //        }
         System.out.println(13 & 17);
+        Integer a = 1000;
+        Integer b = 1000;
+        System.out.println(a == b);
+        System.out.println(100 == 100);
     }
 }
