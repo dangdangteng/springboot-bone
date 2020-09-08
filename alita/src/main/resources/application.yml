@@ -1,5 +1,0 @@
-server:
-  port: 13140
-spring:
-  thymeleaf:
-    suffix:

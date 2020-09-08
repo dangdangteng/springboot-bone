@@ -17,9 +17,9 @@
 
 	<modules>
 		<module>a_eureka</module>
-		<module>alita</module>
 		<module>a_redis</module>
 		<module>a_demo</module>
+		<module>l_eureka</module>
 	</modules>
 
 	<properties>
