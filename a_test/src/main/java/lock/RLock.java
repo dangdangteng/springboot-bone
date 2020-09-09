@@ -1,4 +1,4 @@
-package com.saber.demo.lock;
+package lock;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;

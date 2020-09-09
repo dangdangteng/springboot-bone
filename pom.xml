@@ -18,8 +18,10 @@
 	<modules>
 		<module>a_eureka</module>
 		<module>a_redis</module>
-		<module>a_demo</module>
+		<module>n_swagger</module>
 		<module>l_eureka</module>
+		<module>a_test</module>
+		<module>my_utils</module>
 	</modules>
 
 	<properties>

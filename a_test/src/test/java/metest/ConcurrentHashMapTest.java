@@ -1,4 +1,4 @@
-package com.saber.demo.metest;
+package metest;
 
 import java.util.Random;
 import java.util.concurrent.ConcurrentHashMap;
