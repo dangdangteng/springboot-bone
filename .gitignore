@@ -36,3 +36,4 @@ eurake/target/
 
 ### VS Code ###
 .vscode/
+/a_test/target/
