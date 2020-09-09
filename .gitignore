@@ -1,4 +1,3 @@
-HELP.md
 /target/
 demo/target/
 ab-commont/target/
@@ -27,3 +26,4 @@ eurake/target/
 *.ipr
 /my_utils/target/
 /a_test/target/
+/n_swagger/target/
