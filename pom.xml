@@ -16,6 +16,7 @@
 	<description>所有项目的父项目</description>
 
 	<modules>
+		<module>java</module>
 		<module>a_eureka</module>
 		<module>a_redis</module>
 		<module>n_swagger</module>
