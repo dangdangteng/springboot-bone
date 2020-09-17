@@ -1,14 +1,7 @@
 /target/
-demo/target/
-ab-commont/target/
-ab-util/target/
-alita/target/
-aredis/target/
-ereg/target/
-eregg/target/
-eurake/target/
 
-!.mvn/wrapper/maven-wrapper.jar
+
+
 
 ### STS ###
 .apt_generated
@@ -24,7 +17,10 @@ eurake/target/
 *.iws
 *.iml
 *.ipr
-/my_utils/target/
-/a_test/target/
-/n_swagger/target/
-/java/target/
+my_utils/target/
+a_test/target/
+n_swagger/target/
+java/target/
+a_eureka/target/
+a_redis/target/
+l_eureka/target/
