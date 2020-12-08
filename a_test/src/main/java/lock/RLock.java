@@ -3,25 +3,29 @@ package lock;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
-import lombok.SneakyThrows;
-import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * @author baiyang
  * @date 2020/8/28
  */
-@Slf4j
 public class RLock {
+
+    private static final Logger log = LoggerFactory.getLogger(RLock.class);
 
     private static ReentrantLock reentrantLock = new ReentrantLock();
 
     private static class Test extends Thread {
 
-        @SneakyThrows
         @Override
         public void run() {
-            Thread.sleep(10000);
-            System.out.println("---- test ----");
+            try {
+                Thread.sleep(10000);
+                System.out.println("---- test ----");
+            }catch (Exception e){
+                e.printStackTrace();
+            }
         }
     }
 
