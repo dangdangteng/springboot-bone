@@ -22,7 +22,7 @@ public class RLock {
         public void run() {
             try {
                 Thread.sleep(10000);
-                System.out.println("---- test ----");
+                log.info("-----开始测试-----");
             }catch (Exception e){
                 e.printStackTrace();
             }
@@ -42,7 +42,7 @@ public class RLock {
                 log.warn(e.toString());
                 Thread.currentThread().interrupt();
             } finally {
-                System.out.println("释放锁");
+                log.info("释放锁...");
                 reentrantLock.unlock();
             }
         });
