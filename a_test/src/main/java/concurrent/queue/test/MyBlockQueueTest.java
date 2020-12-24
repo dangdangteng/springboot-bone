@@ -1,8 +1,8 @@
-package queue.test;
+package concurrent.queue.test;
 
+import concurrent.queue.MyBlockQueue;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import queue.MyBlockQueue;
 
 /**
  * @author: yang

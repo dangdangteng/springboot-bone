@@ -132,7 +132,7 @@ public class ConcurrentHashMapTest {
     }
 
 
-    // lock 锁实现
+    // concurrent.lock 锁实现
     @Test
     public void testSafeHashSuccessLock() throws InterruptedException {
         ConcurrentHashMap<String, Integer> map = new ConcurrentHashMap<>();
