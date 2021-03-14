@@ -13,7 +13,7 @@ public class ThreadCpuRun {
 
     public static void main(String[] args) throws InterruptedException {
         int i = 0;
-        for (; ; ) {
+        for (;;) {
             i++;
             x = 0;
             y = 0;
